@@ -2,7 +2,8 @@ import axios from "axios";
 
 // Set default config values - in a real app these would be in environment variables
 const DEFAULT_API_ENDPOINT = "https://api.grok.example/v1";
-const DEFAULT_API_KEY = "YOUR_GROK_API_KEY"; // Replace with actual API key in production
+const DEFAULT_API_KEY =
+  "xai-EFRFaRJSeRZa0EYHgD6ALMs8VrKlDpmiw5GSMamSG594rAGvzIuoUgDxlCfqV3sawWvGKwXSpnQcSa1d"; // Replace with actual API key in production
 
 export interface GrokApiConfig {
   apiEndpoint?: string;
